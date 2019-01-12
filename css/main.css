@@ -9,7 +9,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 	font-family: "Raleway";
 }
 .navbar{
-	background:#F97300;
+	background:#563d7c;
 }
 .nav-link , .navbar-brand{
 	color: #f4f4f4;
@@ -20,7 +20,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 }
 .nav-link:hover{
 	background: #f4f4f4;
-	color: #f97300;
+	color: #555;
 
 }
 .navbar-collapse{
@@ -68,7 +68,6 @@ html,h1,h2,h3,h4,h5,h6,a{
 	color:#fff;
 }
 .about{
-    background-image: url('../images/about_me.jpg');
 	margin: 4em 0;
 	padding: 1em;
 	position: relative;
@@ -202,4 +201,37 @@ html,h1,h2,h3,h4,h5,h6,a{
 .contact-form .right .form-control::placeholder{
 	color: #888;
 	font-size: 16px;
+}
+
+.gallery {
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+	-webkit-column-width: 33%;
+	-moz-column-width: 33%;
+	column-width: 33%; }
+.gallery .pics {
+-webkit-transition: all 350ms ease;
+transition: all 350ms ease; }
+.gallery .animation {
+-webkit-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1); }
+
+@media (max-width: 450px) {
+.gallery {
+	-webkit-column-count: 1;
+	-moz-column-count: 1;
+	column-count: 1;
+	-webkit-column-width: 100%;
+	-moz-column-width: 100%;
+	column-width: 75%;
+}
+}
+
+@media (max-width: 400px) {
+	.btn.filter {
+	padding-left: 1.1rem;
+	padding-right: 1.1rem;
+}
 }
