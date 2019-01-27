@@ -71,6 +71,10 @@ html,h1,h2,h3,h4,h5,h6,a{
 	margin: 4em 0;
 	padding: 1em;
 	position: relative;
+
+	background-image: url('../images/about_me_background.jpg');
+	background-size: cover;
+	background-position: center;
 }
 .about h1{
 	color:#F97300;
@@ -103,7 +107,11 @@ html,h1,h2,h3,h4,h5,h6,a{
 /*Portfolio*/
 .portfolio{
 	margin: 4em 0;
-    position: relative;	
+	position: relative;	
+	
+	background-image: url('../images/about_me.jpg');
+	background-size: cover;
+	background-position: center;
 }
 .portfolio h1{
 	color:#F97300;
@@ -123,6 +131,10 @@ html,h1,h2,h3,h4,h5,h6,a{
 .blog{
 	margin: 4em 0;
 	position: relative;	
+
+	background-image: url('../images/blog_background.JPG');
+	background-size: cover;
+	background-position: center;
 }
 .blog h1{
 	color:#F97300;
